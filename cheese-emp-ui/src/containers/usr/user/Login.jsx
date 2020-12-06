@@ -65,7 +65,8 @@ export default function Login (
             sessionStorage.setItem("sessionUser", user.data['user_id'])
             
             // history.push("/user-detail")
-            history.push("/user-info")
+            // history.push("/user-info")
+            history.push("/recommend")
             window.location.reload()
 
         })

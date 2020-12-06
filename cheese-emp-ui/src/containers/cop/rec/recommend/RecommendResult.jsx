@@ -46,7 +46,7 @@ const Answer = tw(motion.div)`hidden text-sm font-normal mt-4 text-gray-300`;
 
 export default function RecommendResult ({
   subheading = "",
-  heading1 = "당신이 좋아하는 치즈상품은",
+  heading1 = "고객님께 추천드리는 치즈상품은",
   heading2 = "입니다.",
   // description = "새알을 빚어놓은 듯 깜찍한 미니 모짜렐라",
   faqs = [
@@ -58,27 +58,27 @@ export default function RecommendResult ({
     {
       question: "알레르기 정보",
       answer:
-        "우유, 계란, 밀, 대두 함유"
+        "우유 함유"
     },
     {
       question: "이 상품을 좋아하시는 분들은 이런 치즈도 좋아하세요.",
       answer:
-        "리얼 후레쉬 베리 케이크 (L), 블루베리요거트 듬뿍케이크, 시간의정성 진(眞)카스테라, 봉봉오쇼콜라(대)"
+        "스프레더블 리코타 치즈, 바이에른탈러 에멘탈 치즈, 블루 도베르뉴, 샤우르스"
     },
     {
       question: "추천 결과가 맘에 드시나요?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "맞춤 추천 서비스를 이용하시고 치즈도 구매해보세요."
     },
     {
-      question: "What kind of SLA Guarantee do you provide ? ",
+      question: "다른 분들은 어떤 치즈를 추천 받았을까요? ",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "궁금하신가요? 저도 궁금하네요."
     },
     {
-      question: "결과가 마음에 들지 않으신다면 아래 버튼을 눌러 챗봇에게 의견을 남겨주세요.(우측하단 동그라미 버튼)",
+      question: "결과가 마음에 들지 않으신다면 우측 하단의 챗봇에게 의견을 남겨주세요.",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "챗봇이 고객님의 취향을 파악해서 다음에는 더 정확한 추천을 해줄거에요.",
     }
   ]
 }) {
