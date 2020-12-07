@@ -12,7 +12,7 @@ import useAnimatedNavToggler from "./AnimatedNavToggler";
 import logo from "./images/cheese/cheese_img.png";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
-import {CartIcon} from '../../containers/cop/cart/Icons' //eslint-disable-line
+// import {CartIcon} from '../../containers/cop/cart/Icons' //eslint-disable-line
 
 // // import Button from '@material-ui/core/Button';
 // import ClickAwayListener from '@material-ui/core/ClickAwayListener';
