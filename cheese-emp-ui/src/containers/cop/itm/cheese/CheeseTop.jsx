@@ -61,10 +61,10 @@ export default function CheeseTop({
   primaryButtonText="Get Started",
   primaryButtonUrl="#",
   watchVideoButtonText="Watch Video",
-  watchVideoYoutubeUrl="https://www.youtube.com/embed/_GuOjXYl5ew",
+  watchVideoYoutubeUrl="https://www.youtube.com/embed/CqJYJArbdl8",
   imageSrc=DesignIllustration,
   imageCss=null,
-  imageDecoratorBlob = false,
+  imageDecoratorBlob = false
 })  {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 

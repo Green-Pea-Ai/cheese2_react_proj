@@ -34,8 +34,8 @@ export default function SimpleContactUs() {
       <Content>
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
-            <h2>pic 2 Cheese의 혜택! 지금 받으세요.</h2>
-            <h4>pic 2 cheese 챗봇으로 상담 해 보세요. 당신에게 꼭 맞는 치즈를 추천해 드립니다. </h4>
+            <h2>Pic 2 Cheese의 혜택! 지금 받으세요.</h2>
+            <h4>Pic 2 cheese 챗봇으로 상담해 보세요. 당신에게 꼭 맞는 치즈를 추천해 드립니다. </h4>
             <form action="/signup">
               <SubmitButton type="submit" value="Submit">지금 시작하기</SubmitButton>
             </form>

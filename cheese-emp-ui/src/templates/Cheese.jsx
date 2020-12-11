@@ -19,7 +19,7 @@ export default function Cheese () {
         <Chatbot/>
         <CheeseTop
           heading={<>Delicious & Affordable <HighlightedText>Cheese Near You.</HighlightedText></>}
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="모든 음식에 잘 어울리는 치즈, 오늘의 베스트 치즈를 만나볼까요?"
           imageSrc="https://img-cf.kurly.com/shop/data/goods/1515396236580l0.jpg"
           imageCss={imageCss}
           imageDecoratorBlob={true}

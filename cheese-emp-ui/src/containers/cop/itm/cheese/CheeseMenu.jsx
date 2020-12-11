@@ -43,7 +43,7 @@ export default function CheeseMenu() {
       <Content>
         <HeadingInfoContainer>
           <HeadingTitle>Cheese Store</HeadingTitle>
-          <HeadingDescription>지금 가장 핫한 상품</HeadingDescription>
+          <HeadingDescription>실시간 인기 상품</HeadingDescription>
         </HeadingInfoContainer>
         <ThreeColumn>
           {chee.map(cheese => (
