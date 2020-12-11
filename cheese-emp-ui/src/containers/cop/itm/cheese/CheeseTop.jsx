@@ -59,7 +59,7 @@ export default function CheeseTop({
   heading = "Modern React Templates, Just For You",
  description="Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
   primaryButtonText="Get Started",
-  primaryButtonUrl="#",
+  primaryButtonUrl="/",
   watchVideoButtonText="Watch Video",
   watchVideoYoutubeUrl="https://www.youtube.com/embed/CqJYJArbdl8",
   imageSrc=DesignIllustration,

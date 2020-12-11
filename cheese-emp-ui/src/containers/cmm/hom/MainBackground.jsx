@@ -36,7 +36,7 @@ export default function BackgroundAsImageWithCenteredContent() {
           <Content>
             <Heading>
                 <h1>Find Your Cheese !</h1>
-                나에게 맞는 치즈를 추천 받아보세요플레이드.
+                나에게 맞는 치즈를 추천 받아보세요.
             </Heading>
             <br/>
             <Actions action="/signup">

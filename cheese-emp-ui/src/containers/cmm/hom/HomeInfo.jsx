@@ -47,21 +47,21 @@ export default function VerticalWithAlternateImageAndText() {
         "https://img-cf.kurly.com/shop/data/goods/1515396236580l0.jpg",
       title: "치즈 큐레이션",
       subtitle: "띵동 설레는 소리, 매월 선물처럼 나만의 치즈를 안전하게 집에서 받을 수 있습니다. ",        
-      url: "https://timerse.com"
+      url: "http://pic2cheese-m.ml/cheese"
     },
     {
       imageSrc:
         "https://img-cf.kurly.com/shop/data/goods/151073128727l0.jpg",
       title: "AI가 추천해주는",
       subtitle: "Pic 2 Cheese가 엄선하고 AI가 매칭해주는 큐레이션",
-      url: "https://timerse.com"
+      url: "http://pic2cheese-m.ml/cheese"
     },
     {
       imageSrc:
         "https://img-cf.kurly.com/shop/data/goods/158492969355l0.jpg",
-      title: "매 월 선물처럼",
+      title: "매월 선물처럼",
       subtitle: "지금 바로 구독신청하고 다양한 치즈를 경험하세요.",
-      url: "https://timerse.com"
+      url: "http://pic2cheese-m.ml/cheese"
     },
 
   ];

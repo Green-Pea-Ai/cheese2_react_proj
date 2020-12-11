@@ -24,7 +24,7 @@ export default function Cheese () {
           imageCss={imageCss}
           imageDecoratorBlob={true}
           primaryButtonText="Subscribe Now"
-          watchVideoButtonText="Meet The Chefs"
+          watchVideoButtonText="Meet The Cheese"
           
         />
         </AnimationRevealPage>

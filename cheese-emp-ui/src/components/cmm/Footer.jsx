@@ -73,7 +73,7 @@ const Footer =  () => {
         <Column>
         <LinkList>
         <br/><br/>
-                <p>Pic2 Cheese</p>
+                <p>Pic 2 Cheese</p>
         <p>팀원 : 옥수민, 김유정, 최민근</p>
         {/* <p>서울시 송파구 송파대로 570</p>
         <p>사업자 등록번호 : 120-88-00767</p>

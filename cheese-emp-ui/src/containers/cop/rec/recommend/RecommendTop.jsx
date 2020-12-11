@@ -24,7 +24,7 @@ const Description = tw(SectionDescription)`mt-4 max-w-2xl text-black lg:text-bas
 
 export default function RecommendTop ({
   heading = "치즈를 추천받고 구독하세요!",
-  description = "지금 바로 Pic 2 Cheese 회원으로 가입해서 서비스를 즐겨보세요!",
+  description = "지금 바로 Pic 2 Cheese의 모든 서비스를 즐겨보세요!",
   primaryButtonText = "지금 바로 구독하기",
   primaryButtonUrl = "/subscribe",
   // imageSrc = serverIllustrationImageSrc,

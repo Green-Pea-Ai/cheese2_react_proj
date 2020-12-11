@@ -71,23 +71,23 @@ const WhiteBackgroundOverlay = tw.div`absolute inset-x-0 bottom-0 h-1/6 lg:h-1/3
 export default function RecommendList ({
   subheading = "",
   heading = "당신에게 맞는 치즈를 추천받아보세요.",
-  description = "아래 양식을 작성하고 제출 버튼을 누르시면 취향에 맞는 빵을 추천해드립니다.",
+  description = "아래 양식을 작성하고 제출 버튼을 누르시면 취향에 맞는 치즈를 추천해드립니다.",
   plans = null,
-  primaryButtonText = "제출(버튼은 중앙에 하나)"
+  primaryButtonText = "제출"
 }) {
   const defaultPlans = [
     {
       name: "날씨",
       price: ["오늘의 날씨는 어떤가요?"],
-      oldPrice: "0",
+      // oldPrice: "0",
       description: "오늘의 날씨를 입력해주세요.",
-      features: ["맑음", "흐림", "눈", "비", "텍스트 박스"],
+      features: ["맑음", "흐림", "눈", "비"],
       url: "https://google.com"
     },
     {
-      name: "좋아하는 맛",
-      price: ["입맛"],
-      oldPrice: "0",
+      name: "입맛",
+      price: ["좋아하는 맛"],
+      // oldPrice: "0",
       description: "평소 어떠한 맛을 즐겨 먹나요?",
       features: [
         "단맛",
@@ -102,14 +102,13 @@ export default function RecommendList ({
     {
       name: "기분",
       price: ["오늘 기분은 어떤가요?"],
-      oldPrice: "0",
+      // oldPrice: "0",
       description: "오늘의 기분에 맞게 치즈를 추천해드릴게요.",
       features: [
         "좋음",
         "나쁨",
         "평범함",
-        "모름",
-        "텍스트 박스",
+        "모름"
       ],
       url: "https://google.com"
     }

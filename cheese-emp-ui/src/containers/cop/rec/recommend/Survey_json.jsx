@@ -12,7 +12,7 @@ export var json = {
             questions: [ 
                 {
                     type: "html", 
-                    html: "치즈를 추천받아보세요. <br/>AI를 통해 고객님의 치즈 취향을 분석해드립니다. <br/><b>'Start Recommend'</b>버튼을 눌러 시작해주세요.",
+                    html: "치즈를 추천 받아보세요. <br/>AI를 통해 고객님의 치즈 취향을 분석해드립니다. <br/><b>'Start Recommend'</b> 버튼을 눌러 시작해주세요.",
                 } 
             ] 
         },

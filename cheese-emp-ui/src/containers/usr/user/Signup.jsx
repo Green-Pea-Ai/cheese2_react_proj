@@ -114,21 +114,21 @@ export default function SignUp () {
                 </DividerTextContainer>
                 <Form name="form" onSubmit={handleSubmit}>
                   {/* <Input type="email" placeholder="Email" />  */}
-                  <Input type="text" placeholder="Id" name= "user_id" value={user.user_id} onChange={handleChange}
+                  <Input type="text" placeholder="ID" name= "user_id" value={user.user_id} onChange={handleChange}
                   className={'form-control' + (submitted && !user.user_id ? 'is-invalid' : '')}/>
                   {submitted && !user.user_id &&
-                      <div className="invalied-feedback">User Id is required</div>}
+                      <div className="invalied-feedback">User ID is required.</div>}
 
                   <Input type="password" placeholder="Password" name="password" value={user.password} onChange={handleChange}
                   className={'form-control' + (submitted && !user.password ? ' is-invalid' : '')} />
                   {submitted && !user.password &&
-                      <div className="invalid-feedback">Password is required</div>
+                      <div className="invalid-feedback">Password is required.</div>
                   }
 
-                  <Input type="text" placeholder="Your name" name="name" value={user.name} onChange={handleChange} 
+                  <Input type="text" placeholder="Name" name="name" value={user.name} onChange={handleChange} 
                   className={'form-control' + (submitted && !user.name ? 'is-invalid' : '')}/>
                   {submitted && !user.name &&
-                      <div className="invalid-feedback">User Name is required</div>
+                      <div className="invalid-feedback">Name is required.</div>
                   }
      
                   <RadioGroup defaultValue="female" aria-label="gender" name="gender" value={user.gender} onChange={handleChange}>
@@ -141,7 +141,7 @@ export default function SignUp () {
                   <Input type="text" placeholder="Age" name="age" value={user.age} onChange={handleChange}
                   className={'form-control' + (submitted && !user.name ? 'is-invalid' : '')}/>
                   {submitted && !user.name &&
-                      <div className="invalid-feedback">User Name is required</div>
+                      <div className="invalid-feedback">Age is required.</div>
                   }
 
 
@@ -150,13 +150,13 @@ export default function SignUp () {
                   control={<Radio color="yellow" />}
                   className={'form-control' + (submitted && !user.phone ? 'is-invalid' : '')}/>
                   {submitted && !user.phone &&
-                    <div className="invalid-feedback">Tel is required</div>
+                    <div className="invalid-feedback">Tel is required.</div>
                   }           
 
                   <Input type="email" placeholder="Email" name="email" value={user.email} onChange={handleChange} 
                   className= {'form-control' + (submitted && !user.email ? 'is-invalid' : '')}/>
                   {submitted && !user.email &&  
-                    <div className="invalid-feedback">Email is required</div>
+                    <div className="invalid-feedback">Email is required.</div>
                   }  
 
                   <SubmitButton type="submit" onClick={userActions.register}>
@@ -166,11 +166,11 @@ export default function SignUp () {
 
 
                   <p tw="mt-6 text-xs text-gray-600 text-center">
-                    I agree to abide by treact's{" "}
+                    I agree to abide by pic2cheese's{" "}
                     <a href={tosUrl} tw="border-b border-gray-500 border-dotted">
                       Terms of Service
                     </a>{" "}
-                    and its{" "}
+                    and it's{" "}
                     <a href={privacyPolicyUrl} tw="border-b border-gray-500 border-dotted">
                       Privacy Policy
                     </a>

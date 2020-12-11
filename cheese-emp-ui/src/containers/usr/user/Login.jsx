@@ -89,7 +89,7 @@ export default function Login (
                   <Heading>{headingText}</Heading>
                   <FormContainer>
                     <DividerTextContainer>
-                      <DividerText>Sign in with your Id</DividerText>
+                      <DividerText>Sign in with your ID</DividerText>
                     </DividerTextContainer>
                     <Form>
                       {/* <Input type="email" placeholder="Email" /> */}
@@ -115,7 +115,7 @@ export default function Login (
                       </a>
                     </p>
                     <p tw="mt-8 text-sm text-gray-600 text-center">
-                      Dont have an account?{" "}
+                      Don't have an account?{" "}
                       <a href="/signup" tw="border-b border-gray-500 border-dotted">
                         Sign Up
                       </a>
