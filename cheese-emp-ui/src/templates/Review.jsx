@@ -28,6 +28,7 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import LastPageIcon from '@material-ui/icons/LastPage';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { Button } from '@material-ui/core';
 
 export const NavLink = tw.a`
   text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
@@ -172,11 +173,15 @@ export default function Review(){
     return (<>
         <Container>
             {/* <button onClick={fnqAxios}>Fnq axios(검색어 입력창)</button> */}
-            <PrimaryLink  margin="20em" href="/boardregister">검색</PrimaryLink>
-            <PrimaryLink  margin="20em" href="/boardregister">게시글 작성</PrimaryLink>
+            {/* 게시글 작성, href="/boardregister" */}
+            <Button disabled='disable'></Button>
+            <PrimaryLink margin="20em" href="/">게시글 작성</PrimaryLink>
+            <Button disabled='disable'></Button>
+            <PrimaryLink margin="20em" href="/">검색</PrimaryLink>
             {/* <Paper className={classes.root}> */}
             {/* <Table className={classes.table}> */}
             {/* <TableContainer component={Paper} className={classes.tableContainer} > */}
+            <br/><br/>
             <TableContainer component={Paper} >
               <Table className={classes.table} aria-label="customized table">
                 <TableHead>

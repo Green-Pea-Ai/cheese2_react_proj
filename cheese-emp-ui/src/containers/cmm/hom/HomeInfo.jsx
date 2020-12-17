@@ -60,7 +60,7 @@ export default function VerticalWithAlternateImageAndText() {
       imageSrc:
         "https://img-cf.kurly.com/shop/data/goods/158492969355l0.jpg",
       title: "매월 선물처럼",
-      subtitle: "지금 바로 구독신청하고 다양한 치즈를 경험하세요.",
+      subtitle: "지금 바로 구독 신청하시고 다양한 치즈를 경험하세요.",
       url: "http://pic2cheese-m.ml/cheese"
     },
 

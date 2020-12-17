@@ -12,12 +12,12 @@ export var json = {
             questions: [ 
                 {
                     type: "html", 
-                    html: "치즈를 추천 받아보세요. <br/>AI를 통해 고객님의 치즈 취향을 분석해드립니다. <br/><b>'Start Recommend'</b> 버튼을 눌러 시작해주세요.",
+                    html: "로그인 후 치즈를 추천 받아보세요. <br/>AI를 통해 고객님의 치즈 취향을 분석해드립니다. <br/><b>'Start Recommend'</b> 버튼을 눌러 시작해주세요.",
                 } 
             ] 
         },
         {   
-            title: "다음 중에 어떤 음식을 좋아하시나요?",
+            title: "어떤 음식을 좋아하시나요?",
             questions: [
                 {
                     type:"imagepicker", name:"chooseFood_1", title:"아래 사진들 중에서 하나를 선택해주세요",
@@ -37,7 +37,7 @@ export var json = {
                     ]
                 }
         ]},        
-        {   title: "디저트 중에 어떤 음식을 좋아하시나요?",
+        {   title: "어떤 디저트를 좋아하시나요?",
             questions: [
             {type:"imagepicker", name:"chooseFood_2", title:"아래 사진들 중에서 하나를 선택해주세요",
                 colCount: 4, isRequired: true,

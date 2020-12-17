@@ -31,7 +31,7 @@ function getCheese() {
         .then(
             cheeses => {
                 dispatch(success(cheeses));
-                history.push('api/cheeses')
+                history.push('/cheese')
                 dispatch(alertActions.success('Cheese Registeraion Succeessful'));
             },
             error => {
