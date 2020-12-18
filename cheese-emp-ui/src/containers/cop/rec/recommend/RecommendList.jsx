@@ -82,7 +82,7 @@ export default function RecommendList ({
       // oldPrice: "0",
       description: "오늘의 날씨를 입력해주세요.",
       features: ["맑음", "흐림", "눈", "비"],
-      url: "https://google.com"
+      url: "http://pic2cheese-m.ml"
     },
     {
       name: "입맛",
@@ -96,7 +96,7 @@ export default function RecommendList ({
         "고소한맛",
         "아무거나"
       ],
-      url: "https://google.com",
+      url: "http://pic2cheese-m.ml",
       featured: "Most Popular"
     },
     {
@@ -110,7 +110,7 @@ export default function RecommendList ({
         "평범함",
         "모름"
       ],
-      url: "https://google.com"
+      url: "http://pic2cheese-m.ml"
     }
   ];
 
