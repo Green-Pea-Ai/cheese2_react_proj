@@ -3,7 +3,7 @@ export const context = {
     post : 'POST', 
     put : 'PUT', 
     delete : 'DELETE', 
-    url : `http://ec2-54-180-212-241.ap-northeast-2.compute.amazonaws.com:8080`, 
+    url : `http://127.0.0.1:8080`,
     auth : () => (
         {headers: { "Access-Control-Allow-Origin" : "*",
         "Content-Type": "application/json;charset=UTF-8",
